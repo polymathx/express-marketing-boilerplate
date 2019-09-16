@@ -18,7 +18,9 @@ class AppMiddleware {
     static handleErrors(err, req, res, next) {
         res.locals.message = err.message || 'Unidentified Error';
         res.locals.error = req.app.get('env') !== 'production' ? err : {};
-        res.status(err.status || 500);
+        res.locals.status = err.status || 500;
+        res.locals.title = `Error: ${res.locals.status}`;
+        res.status(res.locals.status);
         res.render('error');
     }
 
