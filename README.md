@@ -2,13 +2,12 @@
 The ultimate NodeJS + Express Boilerplate project for fast, effective, and high ranking marketing sites.
 
 ## Setting Up
-
 - Clone the repository
 - `npm i` - Install
-- `npm run start` - Starts the express development server
+- `npm run start` - Starts the express development server.
 - `npm run styles` - Watches the SCSS folder for changes.
-- `npm run build` - Builds the client side JS
-- `npm run sync` - Creates a browsersync server for debugging, and to auto refresh the browser on change
+- `npm run build` - Builds the client side JS with webkit, and watches for changes.
+- `npm run sync` - Creates a browsersync server for debugging, and to auto refresh the browser on change.
 
 ## Environment Variables
 
