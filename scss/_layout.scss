@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+  width:100%;
+}
+
+header {
+  border-bottom: 1px dashed #555;
+  padding: 20px; 
+}
+
+footer {
+  border-top: 1px dashed #555;
+  padding: 20px; 
+}
+
+/** BS OVerrides */
+.container {
+  @media (max-width: $breakpoint-sm) { 
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  &-full {
+    width: 100%;
+    max-width: 100%;
+  }
+}

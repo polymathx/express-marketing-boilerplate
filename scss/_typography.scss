@@ -1,0 +1,81 @@
+/** Typography **/
+a {
+  transition: all 0.2s ease;
+  &:hover, &:active {
+
+  }
+}
+  
+p {
+  &.sm {
+    font-size: 0.9rem;
+  }
+  * {
+    font-size: inherit;
+  }
+}
+
+ul {
+  &.sm {
+    font-size: 0.9rem;
+  }
+}
+
+strong {
+  font-size: inherit;
+  font-weight: 800;
+}
+  
+h1,h2,h3,h4,h5 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  @media (max-width: $breakpoint-sm) {
+    font-size: 1.9rem;
+  }
+  strong {
+    font-size: inherit;
+    font-weight: 800;
+  }
+  * {
+    font-size: inherit;
+  }
+}
+h1 {
+  &.sm {
+    font-size: 1.4rem;
+  }
+}
+h2 {
+  &.sm {
+    font-size: 1.4rem;
+  }
+  @media (max-width: $breakpoint-sm) {
+    font-size: 1.7rem;
+  }
+  font-size: 2.3rem;
+}
+h3 {
+  font-size: 1.4rem;
+  @media (max-width: $breakpoint-sm) {
+    font-size: 1.2rem;
+  }
+}
+h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  @media (max-width: $breakpoint-sm) {
+    font-size: 1.1rem;
+  }
+}
+h5 {
+  font-size: 1.2rem;
+  @media (max-width: $breakpoint-sm) {
+    font-size: 1.1rem;
+  }
+}
+
+ul {
+  li {
+
+  }
+}
